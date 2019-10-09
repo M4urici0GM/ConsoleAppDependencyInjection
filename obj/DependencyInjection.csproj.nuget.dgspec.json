@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/m4urici0gm/RiderProjects/DependencyInjection/DependencyInjection/DependencyInjection.csproj": {}
+  },
+  "projects": {
+    "/Users/m4urici0gm/RiderProjects/DependencyInjection/DependencyInjection/DependencyInjection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/m4urici0gm/RiderProjects/DependencyInjection/DependencyInjection/DependencyInjection.csproj",
+        "projectName": "DependencyInjection",
+        "projectPath": "/Users/m4urici0gm/RiderProjects/DependencyInjection/DependencyInjection/DependencyInjection.csproj",
+        "packagesPath": "/Users/m4urici0gm/.nuget/packages/",
+        "outputPath": "/Users/m4urici0gm/RiderProjects/DependencyInjection/DependencyInjection/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/m4urici0gm/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
